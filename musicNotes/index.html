@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <title>Instrument Prototype</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <!-- CSS Shake library (https://elrumordelaluz.github.io/csshake/) --> 
+    <link rel="stylesheet" type="text/css" href="csshake-slow.min.css">
+</head>
+
+<body>
+    <div id="mainContent">
+        <!-- hidden audio files -->
+        <audio id="cAudio">
+            <source src="media/a_note.mp3" type="audio/mpeg"></source>
+            <source src="media/a_note.ogg" type="audio/ogg"></source>
+            <source src="media/a_note.wav" type="audio/wav"></source>
+        </audio>
+        
+        <audio id="dAudio">
+            <source src="media/d_note.mp3" type="audio/mpeg"></source>
+            <source src="media/d_note.ogg" type="audio/ogg"></source>
+            <source src="media/d_note.wav" type="audio/wav"></source>
+        </audio>
+        
+        <audio id="eAudio">
+            <source src="media/e_note.mp3" type="audio/mpeg"></source>
+            <source src="media/e_note.ogg" type="audio/ogg"></source>
+            <source src="media/e_note.wav" type="audio/wav"></source>
+        </audio>
+        
+        <audio id="fAudio">
+            <source src="media/f_note.mp3" type="audio/mpeg"></source>
+            <source src="media/f_note.ogg" type="audio/ogg"></source>
+            <source src="media/f_note.wav" type="audio/wav"></source>
+        </audio>
+        
+        <audio id="gAudio">
+            <source src="media/g_note.mp3" type="audio/mpeg"></source>
+            <source src="media/g_note.ogg" type="audio/ogg"></source>
+            <source src="media/g_note.wav" type="audio/wav"></source>
+        </audio>
+        
+        <audio id="aAudio">
+            <source src="media/a_note.mp3" type="audio/mpeg"></source>
+            <source src="media/a_note.ogg" type="audio/ogg"></source>
+            <source src="media/a_note.wav" type="audio/wav"></source>
+        </audio>
+        
+        <audio id="bAudio">
+            <source src="media/b_note.mp3" type="audio/mpeg"></source>
+            <source src="media/b_note.ogg" type="audio/ogg"></source>
+            <source src="media/b_note.wav" type="audio/wav"></source>
+        </audio>
+    
+    <!-- Instrument --> 
+        <h1>Digital Harp</h1>
+        <div id="instrument">
+            <!-- row 1 -->
+                <div class="c box shake-slow"></div>
+                <div class="d box shake-slow"></div>
+                <div class="e box shake-slow"></div>
+                <div class="f box shake-slow"></div>
+                <div class="g box shake-slow"></div>
+                <div class="a box shake-slow"></div>
+                <div class="b box shake-slow"></div>
+                
+            <!-- row 2 --> 
+                <div class="b box shake-slow"></div>
+                <div class="c box shake-slow"></div>
+                <div class="d box shake-slow"></div>
+                <div class="e box shake-slow"></div>
+                <div class="f box shake-slow "></div>
+                <div class="g box shake-slow"></div>
+                <div class="a box shake-slow"></div>
+                
+            <!-- row 3 --> 
+                <div class="a box shake-slow"></div>
+                <div class="b box shake-slow"></div>
+                <div class="c box shake-slow"></div>
+                <div class="d box shake-slow"></div>
+                <div class="e box shake-slow"></div>
+                <div class="f box shake-slow"></div>
+                <div class="g box shake-slow"></div>
+                
+            <!-- row 4 -->
+                <div class="g box shake-slow"></div>
+                <div class="a box shake-slow"></div>
+                <div class="b box shake-slow"></div>
+                <div class="c box shake-slow"></div>
+                <div class="d box shake-slow"></div>
+                <div class="e box shake-slow"></div>
+                <div class="f box shake-slow"></div>
+               
+            <!-- row 5 -->
+                <div class="f box shake-slow"></div>
+                <div class="g box shake-slow"></div>
+                <div class="a box shake-slow"></div>
+                <div class="b box shake-slow"></div>
+                <div class="c box shake-slow"></div>
+                <div class="d box shake-slow"></div>
+                <div class="e box shake-slow"></div>
+            
+            <!-- row 6 -->
+                <div class="e box shake-slow"></div>
+                <div class="f box shake-slow"></div>
+                <div class="g box shake-slow"></div>
+                <div class="a box shake-slow"></div>
+                <div class="b box shake-slow"></div>
+                <div class="c box shake-slow"></div>
+                <div class="d box shake-slow"></div>
+                
+            <!-- row 7 -->
+                <div class="d box shake-slow"></div>
+                <div class="e box shake-slow"></div>
+                <div class="f box shake-slow"></div>
+                <div class="g box shake-slow"></div>
+                <div class="a box shake-slow"></div>
+                <div class="b box shake-slow"></div>
+                <div class="c box shake-slow"></div>
+        </div>
+    </div>
+     <!-- jQuery --> 
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"
+    integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   
+    crossorigin="anonymous"></script>
+    
+    <script src="audio.js"></script>
+</body>
+</html>
